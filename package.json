@@ -1,0 +1,15 @@
+{
+  "name": "todo-app",
+  "version": "1.0",
+  "description": "Todo app with mongodb",
+  "main": "app.js",
+  "author": "Saubhik",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.10.8",
+    "method-override": "^3.0.0",
+    "mongoose": "4.10.8",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.9"
+  }
+}
