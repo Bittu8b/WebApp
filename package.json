@@ -4,6 +4,13 @@
   "description": "Todo app with mongodb",
   "main": "app.js",
   "author": "Saubhik",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bittu8b/WebApp.git"
+  },
   "dependencies": {
     "api-key-auth": "^0.2.1",
     "body-parser": "^1.18.2",
