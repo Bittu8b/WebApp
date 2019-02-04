@@ -5,7 +5,9 @@
   "main": "app.js",
   "author": "Saubhik",
   "dependencies": {
+    "api-key-auth": "^0.2.1",
     "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
     "express": "^4.10.8",
     "method-override": "^3.0.0",
     "mongoose": "4.10.8",

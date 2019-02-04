@@ -12,7 +12,7 @@ function getTodos(res) {
 };
 
 module.exports = function (app) {
-    app.get('/api/todos', function (req, res) {
+    app.get('/api/todos/', function (req, res) {
         
         getTodos(res);
     });
@@ -33,12 +33,15 @@ module.exports = function (app) {
     app.delete('/api/todos/:todo_id', function (req, res) {
         Todo.remove({
             _id: req.params.todo_id
+            
+            
         }, function (err, todo) {
             if (err)
                 res.send(err);
 
             getTodos(res);
         });
+        console.log("Deleted id : "+req.params.todo_id);
     });
 
     // application 
