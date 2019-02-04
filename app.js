@@ -13,7 +13,7 @@ var methodOverride = require("method-override");
 //mongoose.connect('mongodb://localhost:27017/todoapp');
 
 mongoose.connect(
-  "mongodb://saubhik:<PASSWORD>@cluster-shard-00-00-obh89.azure.mongodb.net:27017,cluster-shard-00-01-obh89.azure.mongodb.net:27017,cluster-shard-00-02-obh89.azure.mongodb.net:27017/test?ssl=true&replicaSet=Cluster-shard-0&authSource=admin&retryWrites=true"
+  "mongodb://saubhik:007@cluster-shard-00-00-obh89.azure.mongodb.net:27017,cluster-shard-00-01-obh89.azure.mongodb.net:27017,cluster-shard-00-02-obh89.azure.mongodb.net:27017/test?ssl=true&replicaSet=Cluster-shard-0&authSource=admin&retryWrites=true"
 );
 
 app.use(express.static("./public"));
